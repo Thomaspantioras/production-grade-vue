@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ currentCount }}!</h1>
+    <h1>{{ currentCount }}</h1>
     <button v-on:click="incrementCount">Add</button>
     <h1>New current count: {{ currentCount2 }}</h1>
     <button v-on:click="incrementCount2">Add</button>
